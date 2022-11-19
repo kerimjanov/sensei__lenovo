@@ -2,3 +2,20 @@
 @import "veraibles";
 @import "media";
 @import "global";
+#header{
+  background: #ffffff;
+  padding: 8px 0;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  .header{
+    @include flexbox();
+    &--one{
+
+      a {
+        @include a();
+      }
+    }
+    button{
+      @include button();
+    }
+  }
+}
