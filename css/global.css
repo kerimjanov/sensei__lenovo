@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  background: #F7F6FF;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=global.css.map */
