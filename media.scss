@@ -1,48 +1,36 @@
 @media(max-width:1140px){
   .container{
-    width:90%;
+    width:1140px;
   }
 }
 @media(max-width:1200px){
   .container{
-    width:90%;
+    width:1140px;
   }
 }
 @media(max-width:1024px){
   .container{
-    width:90%;
-  }
-  .hero--her__left{
-    margin-left: 200px;
-    background: #6016FC;
-    border-radius: 3px;
-    padding: 15px 55px;
-    border: none;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF;
+    max-width: 1024px;
   }
 }
 @media(max-width:992px){
   .container{
-    width:90%;
+    max-width:992px;
   }
 }
 @media(max-width:768px){
   .container{
-    width:90%;
+    max-width:768px;
   }
 }
 @media(max-width:576px){
-  .container{
-    width:90%;
+  .container {
+    max-width: 451px;
   }
 }
 @media(max-width:451px){
   .container{
-    width:90%;
+    max-width:451px;
   }
 }
 @media(max-width:400px){
@@ -57,6 +45,11 @@
 }
 @media(max-width:320px){
   .container{
-    width:90%;
+    max-width:320px;
+    flex-wrap: wrap;
+    button{
+      align-items: center;
+      justify-content: center;
+    }
   }
 }
