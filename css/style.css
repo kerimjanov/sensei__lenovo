@@ -1,6 +1,12 @@
 @media (max-width: 1140px) {
   .container {
     width: 1140px;
+
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 1140px;
   }
 }
 @media (max-width: 1024px) {
@@ -481,6 +487,14 @@ input {
   to {
     transform: translateX(100%);
   }
+  transition: 4s;
+}
+#header .header button:hover {
+  background: #0ec1ce;
+  color: #FFF;
+  transition: 0.4s;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #0ec1ce, 0 0 50px #0ec1ce, 0 0 100px #0ec1ce;
 }
 
 /*# sourceMappingURL=style.css.map */
